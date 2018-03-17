@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+  color: black;font-size: 18px;  
+}
+body,container,menu
+{
+ background-color:#f1ebda;
+}
+body
+{
+    position:static;  
+    font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    margin: 0;
+	padding: 0; 
+	 
+}
+#container
+{
+    
+    position:relative;
+    width:1024px; box-shadow: 0px 0px 10px black;
+    height:0%;
+	margin:0 auto;  
+    
+}
+
+/*--==================== header starts here================================*/
+#header
+{ 
+    position:fixed;
+    box-shadow: 0px 0px 10px black;
+    top:0; 
+    width:1024px;
+	height:170px;
+	background-color:#fff;
+    border-radius: 0px 0px 0px 0px; 
+    z-index:100;
+}
+
+/* image settings */
+a img 
+{
+     
+}
+
+img#logo5
+{
+    border-radius:30px;
+    /*padding-top:1%;*/
+    display:block;
+    float:left;
+    /*background:#456764;*/
+}
+img#SHA
+{
+    margin-left:140px;
+    margin-top:0px;
+    display:block;
+    float:left;
+    /*background:#456764;*/
+
+}
+img#logo7
+{
+    margin-left:40px;
+    border-radius:0px;
+    margin-top: 3px; display:block;
+    float:left;/* background:#456764;*/
+}
+/*--==================header ends here ====================*/
+/*--==================middle section ====================*/
+#middle 
+{
+    padding:10px;
+    height:auto;
+    background-color:#FFFFFF;
+    /*border-radius: 30px 30px 0px 0px;*/  
+}
+/* left right and centre sections are  different for each page */
+
+/*--==================footer section ====================*/
+#footer
+{
+    width:1024px; 
+	height:350px; 
+	background-color:#FFF;
+    display:block; 
+    box-shadow: 0px 0px 10px black;
+}
+#footer_plate
+{ 
+    box-shadow: 0px 0px 10px black;
+    padding-left:270px;
+	background-color:#f1ebda;
+	line-height:60px;
+}  
+#callus
+{
+    font-family:sans-serif;
+	padding: 10px 10px 0px 10px;
+    font-size:20px;
+	border-right:black 1px dashed;
+}
+#shortintro
+{	 
+    margin-top: 20px;
+	border-right:black 1px dashed;
+	float:left;width:320px;margin-left:0px;
+	padding: 10px 10px 0px 10px;
+}
+#blog
+{	
+	font-size:20px; 
+	margin-left:35px;
+	margin-top:3px;
+	text-decoration:none;
+	display:block;
+	width:250px;
+	height:50px;
+	line-height:50px;
+}
+#blog:hover
+{
+	background-color:#f1ebda;
+}
+#followus
+{
+	float:left;
+	margin-top: 20px;
+	padding: 10px 10px 0px 10px;
+}
+#logos
+{
+     width:180px;margin:0 auto;margin-top: 30px;
+}
+#telephone
+{
+      width:9%; height:15%;
+}
+#mobile
+{
+     width:; height:15%;">
+}
+#fax
+{
+      width:9%; height:15%; 
+}
+/* =====================text settings=====================   */
+h1, h2, h3, h4, h5, h6, p
+{
+	margin-top: 0;	
+    padding-right: 15px;
+	padding-left: 15px;
+}
+h5
+{
+    text-shadow: 0 0 0.2em #808080, 0 0 0.2em #808080;
+    font-family:sans-serif;
+    /*margin-left:23%; ,0 0 0.2em #808080*/
+    font-size:45px; 
+    padding-top:5px;
+    margin-bottom: auto;
+}
+h4
+{
+    margin:3px;
+    padding:3px;    
+}

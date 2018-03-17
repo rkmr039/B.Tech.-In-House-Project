@@ -1,0 +1,130 @@
+/*==================== menu buttons settings=========================== */
+#navigation
+{
+   
+    box-shadow: 0px 0px 10px black; 
+    height:50px; 
+    margin-top:120px;
+    opacity:1;
+    background-color: #f1ebda;
+}
+
+ #navigation ul
+{
+    list-style-type:none; 
+    padding:0;
+    margin:0;
+    margin-left: 170px;
+}
+#navigation ul li
+{
+    width:150px;
+    line-height: 50px;
+    text-align: center;
+    float:left; 
+}
+#navigation ul li a
+{
+    text-decoration: none;display:block;
+}
+
+#navigation ul li:hover
+{
+    background-color: white;
+}
+
+#navigation ul ul
+{
+  display:none;margin:0;
+}
+#navigation ul li:hover > ul
+{
+    display:block;  
+}
+
+#navigation ul ul li:hover
+{
+    background-color: #f1ebda;
+ 
+}
+
+#middle 
+{
+    height:auto;
+    margin-top:170px;
+    border: 1px solid black;/* size of content area, can make changes in size*/        
+}
+
+
+#centre
+{
+	height:100%;
+	margin:0 auto;
+    	 	
+}
+
+
+#chat_container
+{
+  height:100%;
+  width:50%;
+  background:#f1ebda;
+  box-shadow:0 0 20px black;
+  margin:0 auto;
+  padding:20px;
+    
+}
+
+#chat_box
+{
+  width:90%;
+  height:auto;
+
+}
+#chat_data
+{
+  font-weight:bold;
+  border-bottom:1px solid silver;
+  margin-bottom:10px;
+
+}
+input[type='text']
+{
+width:100%;
+height:40px;
+border:1px solid black;
+border-radius:5px;
+
+}
+input[type='submit']
+{
+  width:30%;
+  height:40px;
+  border:1px solid black;
+  border-radius:5px;
+  margin-bottom:10px;
+}
+
+input[type='submit']:hover
+{
+  background:black;
+color:white;
+  
+}
+
+textarea
+{
+width:100%;
+height:40px;
+border:1px solid black;
+border-radius:5px;
+}
+
+#footer
+{
+	position:absolute;z-index:55;
+}
+
+
+
+

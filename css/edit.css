@@ -1,0 +1,170 @@
+/*==================== menu buttons settings=========================== */
+#navigation
+{
+   
+    box-shadow: 0px 0px 10px black; 
+    height:50px; 
+    margin-top:120px;
+    opacity:1;
+    background-color: #f1ebda;
+}
+
+ #navigation ul
+{
+    list-style-type:none; 
+    padding:0;
+    margin:0;
+    margin-left: 200px;
+}
+#navigation ul li
+{
+    width:150px;
+    line-height: 50px;
+    text-align: center;
+    float:left; 
+}
+#navigation ul li a
+{
+    text-decoration: none;display:block;
+}
+
+#navigation ul li:hover
+{
+    background-color: white;
+}
+
+#navigation ul ul
+{
+  display:none;margin:0;
+}
+#navigation ul li:hover > ul
+{
+    display:block;  
+}
+
+#navigation ul ul li:hover
+{
+    background-color: #f1ebda;
+ 
+}
+
+#middle 
+{
+    height:900px;
+    margin-top:170px;
+    /* size of content area, can make changes in size*/        
+}
+
+form
+{
+	width:60%;
+	height:850px;
+	dding: 30px;
+	border:1px solid #5F9EA0;
+	margin: 5px auto;
+	background-color:#f1ebda;
+    border-radius:8px;
+    -shadow: 0px 0px 8px black;
+    color: white;
+    margin-top:0px;
+     
+}
+
+#form_top
+{
+   height:80px;
+   width:100%;
+   border-radius:8px 8px 0px 0px;
+   background:#5F9EA0;
+   text-align:center;
+}
+#form_top h3
+{
+   font-size: 35PX; 
+   line-height:60px;
+}
+
+.input-group 
+{
+    height: 30px;
+	margin-top:50px;
+	font-size: 20px;
+    
+}
+.input-group input 
+{
+	height:40px;
+	width:99.7%;
+	border-radius:8px;
+    border:1px solid #5F9EA0;
+	
+}
+
+p
+{
+	margin-top:30px;
+	color:red;
+	margin-right:0px;
+}
+#error_msg
+{
+	width:50%;
+	margin:5px auto;
+	height:30px;
+	border:1px solid #ff0000;
+	background:#ffb9bb;
+	color:#ff0000;
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+ 
+#avatar
+{
+  width:200px;
+  height:100px;  
+  margin-top:-100px;
+  margin-left:20px;
+}
+
+#details
+{
+ 
+}
+#brows_button
+{
+  height:50px;
+  width:150px;
+  margin: 0  auto;
+}
+#brows_button input
+{
+    font-size:25px;
+    margin-top:10px;
+}
+
+#upload_button button
+{  
+    font-size:25px;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+#upload_button
+{
+  height:50px;
+  width:150px;
+  margin: 0  auto;  
+}
+ 
+
+ 
+
+
+
+
+
+
+ 
+ 
