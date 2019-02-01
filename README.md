@@ -1,3 +1,3 @@
 # B.Tech.-In-House-Project website build using PHP HTML and css fron scratch.
-demo link : http://smarthealthadvisor.ga/home.php
-may be all the features are not working properly
+
+WEBSITE FOR SMART HEALTH ADVISOR is an open source, online, single window system for almost all health related issues, facts and information. Its main focus is on rural India, where the lack of knowledge and awareness about health creates a big problem at national as well as global level.Any user can check their BMI, target Heart rate and Body Fat Percentage, etc. Any registered user can book appointment with registered doctors/clinic/hospitals and avoid rush to make conversation with doctor.Registered users can also send their reports to concern doctor and talk to them about their health status during treatment and can also take second advice. 
